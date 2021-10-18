@@ -1,0 +1,4 @@
+Dossier pour mettre tous les petits codes tests qu'on fait.
+Dans "petis_codes" c'est plus pour tous ce qui est des morceaux de codes, style menu, carte, essais de popup ...
+Dans "pages_html" c'est plus les pages qui auront été codé en HTML et qui seront prête à être transformer en PHP avec
+l'appel à la BDD.

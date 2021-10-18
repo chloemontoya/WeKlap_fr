@@ -1,0 +1,27 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'poppins';
+    background-color: #1a1a1a;
+}
+
+nav {
+    background-color: #fae700;
+    margin: auto;
+    height: 8vh;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+a:hover {
+    text-decoration: underline;
+}

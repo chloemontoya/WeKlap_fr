@@ -1,0 +1,4 @@
+Dossier pour mettre le code principal du site. 
+Généralement je pense que c'est mieux de mettre les pages qu'on créer dans le dossier tests et mettre ici les pages 
+"final", genre les pages qui auront été transformer en php avec les appels de la BDD après qu'elles aient été faites 
+en html.
