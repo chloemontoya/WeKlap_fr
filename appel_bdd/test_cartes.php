@@ -8,10 +8,14 @@
     <title>Oeuvres</title>
 </head>
 <body>
+    <div class="circle circle-1"></div>
+    
     <h1>Oeuvres cinématographiques</h1>
+
+    <section>
 <?php 
     include('secret.php');
-        
+
     // Fiche métier du sous-domaine Décor 
         $sql = "SELECT *  
         FROM weklap_oeuvre, weklap_categorie, weklap_rel_oeuvre_lieu
@@ -19,19 +23,20 @@
         $req = $link -> prepare($sql);
         $req -> execute();
         while($data = $req -> fetch()){
-        echo '<h2>'.$data['nom_categorie'].'</h2>
-            <div class="carte">
+        echo '
                 <div class="card">
                     <div class="affiche"><img src="'.$data['photo_oeuvre'].'" alt=""></div>
                     <div class="line"></div>
-                    <div class="titre">
+                    <div class="titre ligne_horizontal">
                         <p>'.$data['titre_oeuvre'].' - '.$data['annee_sortie'].'</p>
                     </div>
                     <div class="line"></div>
-                </div>
-            </div>';
+                </div>';
         }
         $req = null;
     ?>
+    </section>
+
+<!-- <h2>'.$data['nom_categorie'].'</h2> -->
 </body>
 </html>
