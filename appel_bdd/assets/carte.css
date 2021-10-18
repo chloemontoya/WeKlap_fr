@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(150deg, #1e1e1e 50%, #512164 100%);
+}
+
+/* Background circles end */
+
+/* .carte {
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    transform: translate(-50%, -50%);
+} */
+
+h1, h2, h3,p{
+    font-family: 'Poppins';
+    color:white
+}
+
+.card {
+    position: relative;
+    /* height: 13.3vw; */
+    /* width: 16vw; */
+    height: 33vh;
+    width: 21vw;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    /* border: 2px solid rgba(255, 255, 255, 0.1); */
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.affiche{
+    height:80%;
+    width: 100%;
+    /* border: red solid; */
+}
+
+.affiche img {
+    width: 100%;
+    max-height:100%;
+    object-fit: cover;
+}
+
+.titre{
+    width: 100%;
+    /* border: pink solid; */
+}
+
+p {
+    /* border: green solid; */
+    /* margin: 0; */
+    width: max-content;
+    margin: auto;
+
+}
