@@ -1,0 +1,142 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(150deg, #1e1e1e 50%, #512164 100%);
+    font-family: 'Poppins';
+    /* height: 100vh; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulaire {
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(112.72deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(10px);
+    display: flex;
+    /* border: solid blue; */
+    height: max-content;
+    width: 80vw;
+    border: 1,5px solid;
+    margin-top: 5vh;
+}
+
+/* Côté gauche */
+
+.left {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    /* border: red solid; */
+    width: 50%;
+    padding: 10vh 0px 10vh 0px;
+}
+
+img {
+    width: 80%;
+    margin: auto;
+}
+
+#valider, #visiter {
+    width: 18vw;
+    background-color: #2CC8DE;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.6rem;
+    font-family: 'Poppins';
+    cursor: pointer;
+    padding: 10px 10px 10px 20px;
+}
+
+#visiter {
+    width: 20vw;
+    margin: auto;
+    display: grid;
+}
+
+#visiter a{
+    text-decoration: none;
+    margin: auto;
+}
+
+/* Côté droit */
+
+.right {
+    padding: 10px;
+    /* border: green solid; */
+    width: 50%;
+}
+
+.right .form{
+    /* border: orange solid; */
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right div h1{
+    font-size: 2.875rem;
+}
+
+.champs input{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    width: 33vw;
+    height: 6vh;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.33);
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+.nom_prenom{
+    display: flex;
+    justify-content: space-between;
+}
+
+#contact_nom{
+    display: block;
+    width: 50%;
+    margin-right: 20px;
+}
+
+#contact_prenom{
+    display: block;
+    width: 50%;
+}
+
+.champs{
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    padding: 10px;
+} 
+
+
+a {
+    color: white;
+}
+
+#valider{
+    margin-top: 5vh;
+    /* padding: 10px 10px 10px 20px; */
+}
+
+.mdp{
+    display: inline-block;
+    width: max-content;
+    font-size: 0.8rem;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
