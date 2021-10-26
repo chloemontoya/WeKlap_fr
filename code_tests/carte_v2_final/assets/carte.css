@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(150deg, #1e1e1e 50%, #512164 100%);
+    height: 100vh;
+}
+
+/* Background circles end */
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'Poppins';
+    color: white
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    height: 33vh;
+    width: 21vw;
+    border-radius: 20px;
+    background: linear-gradient(116.79deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.08) 99.45%);
+    backdrop-filter: blur( 4px ); 
+    /* Ne fonctionne pas sur Firefox donc création d'une div .glass avec un background et un léger blur */
+    -webkit-backdrop-filter: blur( 4px );
+    /* filter: blur(2px); */
+    overflow: hidden;
+    margin-right: 2vw;
+    position: relative;
+}
+
+.glass{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(1px);
+}
+
+.affiche {
+    height: 80%;
+    width: 100%;
+}
+
+.affiche img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.titre {
+    align-items: center;
+    height: 18%;
+    padding: 0px 1vw 0px 1vw;
+}
+
+p {
+    width: max-content;
+    margin: auto;
+    margin: 0px 1vw 0px 1vw;
+}
+
+.ligne_horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+.ligne_horizontal:before,
+.ligne_horizontal:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #ffffff;
+    margin: auto;
+}
+
+.circles {
+    position: absolute;
+    border: red solid;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(50.08deg, #7D339A 29.06%, #C34DF2 80.1%), linear-gradient(50.08deg, #25A9BC 29.06%, #72C9D6 80.1%);
+}
+
+.circle-1 {
+    height: 76vh;
+    width: 76vh;
+    left: -10vw;
+    top: -31vh;
+    z-index: -1;
+}

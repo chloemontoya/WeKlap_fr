@@ -1,0 +1,6 @@
+Ce dossier il nous permet de partager les photos qu'on trouve pour un lieu, ou une oeuvre. 
+Tout sera regrouper dans ce dossier, ça sera donc plus simple quand on devra les mettres
+dans le serveur.
+Si possible quand on met une photo la renommer.
+Ne pas mettre de majuscule et pour les espaces mettre des _ .
+Ex: photo_louvre.jpg

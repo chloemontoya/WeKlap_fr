@@ -1,0 +1,92 @@
+@font-face {
+    font-family: "Poppins";
+    src: url('fonts/Poppins.woff2') format('woff2'),
+        url('fonts/Poppins.woff') format('woff');
+}
+
+body {
+    /* fallback for old browsers */
+    background: linear-gradient(150deg, #1e1e1e 50%, #512164 100%);
+    height: 100vh;
+}
+
+/* Background circles start */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: radial-gradient(#006db3, #29b6f6);
+}
+
+.circles {
+    position: absolute;
+    height: 270px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-1 {
+    height: 180px;
+    width: 180px;
+    top: -50px;
+    left: -60px;
+}
+
+.circle-2 {
+    height: 200px;
+    width: 200px;
+    bottom: -90px;
+    right: -90px;
+    opacity: 0.8;
+}
+
+/* Background circles end */
+
+.miraculous {
+    position: absolute;
+    top: 20%;
+    right: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.aristochat {
+    position: absolute;
+    top: 20%;
+    right: 22.5%;
+    transform: translate(-50%, -50%);
+}
+
+.ratatouille {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    position: relative;
+    height: 13.3vw;
+    width: 16vw;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.affiche img {
+    position: absolute;
+    bottom: 3vw;
+    width: 16vw;
+    height: auto;
+}
+
+p {
+    position: absolute;
+    bottom: -0.5vw;
+    font-family: 'Poppins';
+    left: 18%;
+    color: white;
+}
